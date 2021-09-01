@@ -1,21 +1,14 @@
 /**
- * An example library for the typescript-template.
+ * A prototype library for Webex JS.
  *
  * @packageDocumentation
  */
 
-import {
-  methodA,
-  methodB,
-} from './example-utils';
-
-import Example from './example-class';
-
-import { ExampleInterface } from './example-interface';
+import { Feature, Service, Webex } from './models';
 
 export {
-  Example,
-  ExampleInterface,
-  methodA,
-  methodB,
+  Feature,
+  Service,
 };
+
+export default Webex;

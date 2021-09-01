@@ -1,7 +1,7 @@
 {
-  "name": "typescript-template",
+  "name": "webex-js",
   "version": "0.0.0",
-  "description": "Typescript Template Repository",
+  "description": "Webex JS Prototype",
   "main": "./build/bundle.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -22,16 +22,8 @@
     "transpile:validate": "tsc --noemit",
     "transpile:watch": "tsc --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/AlboeDev/typescript-template.git"
-  },
-  "author": "Alboe Development",
+  "author": "Timothy Scheuering",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AlboeDev/typescript-template/issues"
-  },
-  "homepage": "https://github.com/AlboeDev/typescript-template#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.14.6",
